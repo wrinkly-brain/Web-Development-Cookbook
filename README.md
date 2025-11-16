@@ -6,7 +6,7 @@ This website contains definitions and code snippets for various topics revolving
 
 ## Live Demo
 
-Hosted on [Netlify](example.com)
+Hosted on [Netlify](https://web-development-cookbook.netlify.app)
 
 ## Usage / How It Works
 
