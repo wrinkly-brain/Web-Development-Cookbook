@@ -1,0 +1,118 @@
+:root {
+    --primary-bg: #E7E6F7;
+    --secondary-bg: #DBCDDF;
+    --header-bg: #827081;
+    --header-btn-1: #D0DAF1;
+    --header-btn-2: #2C498C;
+    --bright-text: #E0E8F5;
+    --main-text-bg: #E3D0D8;
+    --main-text: #3E3843;
+    --code-btn-1: #f2e8ff;
+    --code-btn-2: #614aad;
+    --code-chunk: #cddbf2;
+    --table-header-bg: #a3a7e0;
+    --table-header-active: #2e2f45;
+    --table-cell-bg: #c8cbf5;
+    --footer-bg: #333;
+    --footer-text: white;
+    --link-hover: #4450ff;
+}
+
+/* Buttons */
+.btn-info {
+    background-color: var(--header-btn-2) !important;
+    color: var(--header-btn-1) !important;
+    border-color: var(--header-btn-2) !important;
+}
+.btn-info:hover {
+    background-color: var(--header-btn-1) !important;
+    color: var(--header-btn-2) !important;
+}
+.btn-primary {
+    background-color: var(--code-btn-2) !important;
+    color: var(--code-btn-1) !important;
+    border-color: var(--code-btn-2) !important;
+}
+.btn-primary:hover {
+    background-color: var(--code-btn-1) !important;
+    color: var(--code-btn-2) !important;
+}
+
+/* Nav and Aside backgrounds */
+nav, aside {
+    background-color: var(--secondary-bg) !important;
+    color: var(--main-text) !important;
+}
+
+/* Header */
+header {
+    background-color: var(--header-bg) !important;
+    color: var(--bright-text) !important;
+}
+header h1 {
+    color: var(--bright-text) !important;
+}
+
+/* Main content */
+main {
+    background-color: var(--main-text-bg) !important;
+    color: var(--main-text) !important;
+}
+
+/* Code Text */
+code {
+    background-color: var(--code-chunk) !important;
+    color: var(--main-text) !important;
+}
+pre {
+    background-color: var(--code-chunk) !important;
+}
+
+#copyFeedback {
+    color: green;
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-bg) !important;
+    color: var(--footer-text) !important;
+}
+
+/* Nav links */
+.nav-link {
+    color: var(--main-text) !important;
+}
+.nav-link:hover {
+    color: var(--link-hover) !important;
+}
+
+/* Page Background */
+body {
+    background-color: var(--primary-bg) !important;
+}
+
+/* Tables */
+
+table, 
+th, 
+td {
+    border-color: var(--table-border) !important;
+    color: var(--main-text) !important;
+}
+
+th {
+    background-color: var(--table-header-bg) !important;
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+td {
+    background-color: var(--table-cell-bg) !important;
+}
+
+th:hover {
+    cursor: pointer;
+    background-color: var(--table-header-active) !important;
+    color: var(--bright-text) !important;
+}
