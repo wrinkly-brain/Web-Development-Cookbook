@@ -8,7 +8,26 @@ This website contains definitions and code snippets for various topics revolving
 
 Hosted on [Netlify](https://web-development-cookbook.netlify.app)
 
-## Usage / How It Works
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/wrinkly-brain/Web-Development-Cookbook.git
+```
+Go to the project directory
+
+```bash
+  cd /Web-Development-Cookbook
+```
+
+Start the server
+
+```bash
+  ./index.html
+```
+
+## How It Works
 
 This is a static website that can be used as a reference tool. It's built with HTML, CSS, JavaScript, and Bootstrap.
 
@@ -27,24 +46,7 @@ The layout of the site adapts to various screen sizes using Bootstrap's responsi
 - HTML, JavaScript, CSS
 - Bootstrap 5
 
+## Author
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/wrinkly-brain/Web-Development-Cookbook.git
-```
-
-Go to the project directory
-
-```bash
-  cd /Web-Development-Cookbook
-```
-
-Start the server
-
-```bash
-  ./index.html
-```
+Created by Jonas Mast
 
